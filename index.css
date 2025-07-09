@@ -7,10 +7,41 @@
   font-variation-settings:
     "wdth" 100;
 }
+/* shared */
+.dark-2{
+    color: #A6AEBF ;}
+.btn-primary{
+    background-color: #D4BEE4;
+    color: white;
+    font-weight:bold ;
+    padding: 18px 35px;
+border: none;
+border-radius: 5px;
+font-size: 20px;
+} 
+
 /* nav style */
 nav{
     display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 50px 200px;
 }
 .nav_title{
     font-weight: 800px;
-    font-size: 45px;
+    font-size: 45px;}
+.span{
+    color: #7965C1;
+}    
+nav ul li{
+    list-style: none;
+    margin-right: 50px;
+} 
+nav ul li a{
+    text-decoration: none;
+    font-size: 20px;
+}
+nav ul {
+    display: flex;
+    align-items: center;
+}
