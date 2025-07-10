@@ -73,6 +73,7 @@ nav ul {
     width: 580px;
 }
 .header{
-    background-image: url(./images/developer.png);
+    background-image: url(./images/developer.png), url(./images/header_bg.png);
     background-repeat: no-repeat;
+    background-position:top left, bottom right;
 }
